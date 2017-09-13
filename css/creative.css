@@ -100,28 +100,31 @@ aside {
 header {
   text-align: center;
 }
+header .header-content {
+  min-height: 600px;
+  background-color: #003366;
+}
 header .header-content .header-info {
   position: absolute;
   z-index: 10;
   display: block;
   width: 100%;
-  top: 20vh;
+  top: 200px;
 }
 header .header-content .header-info .fdu-logo img {
   width: 90vw;
-  padding: 50px;
+  padding: 80px 20px 30px 20px;
 }
 header .header-content .header-info .content {
   margin: 50px;
 }
 header .header-content .header-info .content p {
   color: #FFFFF0;
-  font-size: 25px;
+  font-size: 20px;
 }
 header .header-content .carousel img {
   min-width: 100vw;
   filter: brightness(60%);
-  min-height: 600px;
 }
 .section-heading {
   margin-top: 0;

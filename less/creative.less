@@ -114,23 +114,25 @@ aside {
 header {
     text-align: center;
     .header-content {
+        min-height: 600px;
+        background-color: @theme-primary;
         .header-info {
             position: absolute;
             z-index: 10;
             display: block;
             width: 100%;
-            top: 20vh;
+            top: 200px;
             .fdu-logo {
                 img {
                     width: 90vw;
-                    padding: 50px;
+                    padding: 80px 20px 30px 20px;
                 }
             }
             .content {
                 margin: 50px;
                 p {
                     color: #FFFFF0;
-                    font-size: 25px;
+                    font-size: 20px;
                 }
             }
         }
@@ -138,7 +140,6 @@ header {
             img {
                 min-width: 100vw;
                 filter: brightness(60%);
-                min-height: 600px;
             }
         }
     }
