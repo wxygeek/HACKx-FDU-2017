@@ -355,3 +355,12 @@ body {
 .organizer p {
   font-size: 20px;
 }
+.language_change {
+  position: absolute;
+  z-index: 20;
+  background: transparent;
+  color: white;
+  font-size: 20px;
+  top: 20px;
+  left: 20px;
+}
