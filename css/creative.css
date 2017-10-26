@@ -372,3 +372,12 @@ body {
   top: 20px;
   left: 20px;
 }
+.judger {
+  text-align: center;
+}
+.judger img {
+  height: 200px;
+}
+.judger .name {
+  margin-top: 50px;
+}
